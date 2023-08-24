@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "e2e_test": "npx playwright test tests/",
+    "e2e_test_chrome": "npx playwright test tests/ --project=chromium --headed"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/njorogedanny/magento.git"
